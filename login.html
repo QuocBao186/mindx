@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <header>
+        <h1>Trang Đăng Nhập</h1>
+        <nav class="menu">
+            <div class="hamburger-menu">&#9776;</div>
+            <!-- Gạch menu trên màn hình nhỏ -->
+            <ul class="menu">
+                <li><a href="web chơi game.html">Trang Chủ</a></li>
+                <li><a href="login.html">Đăng Nhập/Đăng ký</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="login-container">
+        <h2>Đăng Nhập</h2>
+        <form id="login-form">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Đăng Nhập</button>
+        </form>
+
+        <p>Bạn chưa có tài khoản? <a href="register.html">Đăng Ký ngay</a></p>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>
